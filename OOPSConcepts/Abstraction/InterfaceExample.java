@@ -17,14 +17,26 @@ public class InterfaceExample implements Printable, Showable {
         InterfaceExample obj = new InterfaceExample();
         obj.print();
         obj.show();
+        obj.show1();
+        obj.show2();
+        Printable.display();
     }
 
 
 }
 
 
-interface Printable {
+ interface Printable {
     void print();
+    default void show2(){
+        System.out.println("hi");
+    }
+    default void show1(){
+        System.out.println("hi");
+    }
+    static void display(){
+        System.out.println("hello");
+    }
 }
 
 interface Displayable{
