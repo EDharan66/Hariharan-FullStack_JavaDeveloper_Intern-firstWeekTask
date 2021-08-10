@@ -1,8 +1,5 @@
 import java.util.StringTokenizer;
 
-enum DemoEnum{
-    hi,hello,welcome,everyone,have,a,nice,day
-        }
 
 public class StringTokenizerExample {
 
