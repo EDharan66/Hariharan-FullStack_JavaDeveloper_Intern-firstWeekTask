@@ -20,6 +20,8 @@ class ArithmaticTest{
             //throw exception.
 
             System.out.println(e);
+        }finally {
+            System.out.println("finally will execute");
         }
 
         System.out.println("Remaining code after exception handling.");
