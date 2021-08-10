@@ -1,1 +1,1 @@
-![Alt text](/StringConcept/TypeCasting/Screenshot 2021-08-10 193337.png)
+![Alt text](/StringConcept/TypeCasting/Screenshot2021-08-10193337.png)
